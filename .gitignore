@@ -1,0 +1,43 @@
+# Build output
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# Arduino IDE build cache
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# KiCad backup and cache files
+*.kicad_pcb-bak
+*.sch-bak
+*-backups/
+_autosave-*
+fp-info-cache
+*.dsn
+*.ses
+
+# Gerber export folders (keep only committed exports)
+# Uncomment if you don't want to track gerbers in git:
+# hardware/gerbers/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
